@@ -1,0 +1,5 @@
+Points of Domination: 0.56
+Move Along Wall: {2: 0.21, 3: 0.0, 4: 0.05, 5: 0.35, 'overall': 0.22}
+Entrance Vectors: 0.67
+Total Entry Time: 0.93
+Entrance Hesitation: 0.77

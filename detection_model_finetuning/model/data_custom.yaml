@@ -1,0 +1,6 @@
+path: /home/rhea/SUPRA/Detection/model/
+train: ./train  
+val: ./val  
+
+nc: 6
+names: ['Person', 'Person0', 'Person1', 'Person2', 'Person3', 'Person4']
