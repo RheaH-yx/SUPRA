@@ -22,13 +22,13 @@ def combine_frames(img1, img2):
 
     return vis
 
-video_path = "/home/rhea/SUPRA/Detection/model/SH_R2_CamF.mp4"
+video_path = "/home/rhea/SUPRA/Detection/model/mapView_camF.mp4"
 map_path = "/home/rhea/SUPRA/Map-SORT/examples/data/SUPRA/mapView_camF.png"
-dets_path = "/home/rhea/SUPRA/Map-SORT/examples/data/SUPRA/aggregated_results.txt"
+dets_path = "/home/rhea/SUPRA/Map-SORT/examples/data/SUPRA/aggregated_results_camA.txt"
 point_map_path = "data/SUPRA/point_mapping.txt"
 entry_polys_path = "data/SUPRA/entry_polys.txt"
-tracking_output_path = "data/SUPRA/SH_R2_CamF-track.txt"
-video_output_path = "data/SUPRA/output.avi"
+tracking_output_path = "data/SUPRA/mapView_camF-mapped.txt"
+video_output_path = "data/SUPRA/mapView_camF_mapped.avi"
 
 DISPLAY = False
 SAVE = True

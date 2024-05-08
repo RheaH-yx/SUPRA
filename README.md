@@ -38,7 +38,7 @@
 
   2. For <u>object tracking</u>: 
 
-     in command window run: yolo track model=path/to/best.pt source="path/to/video.mp4" tracker="bytetrack.yaml"
+     in command window run: `yolo track model=path/to/best.pt source="path/to/video.mp4" tracker="bytetrack.yaml" save_txt=True`
 
      **Output**: A video with predicted labels and txt files with coordinates for the bounding boxes for each frame can be found under ./runs/track/labels
 

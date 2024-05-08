@@ -22,7 +22,7 @@ for filename in os.listdir(directory):
                 # Split the line into its components
                 data = line.strip().split()
                 
-                if len(data) == 7:
+                if len(data) == 6:
                     # Extract the relevant information
                     class_id = data[0]
                     x = float(data[1]) * 1920
