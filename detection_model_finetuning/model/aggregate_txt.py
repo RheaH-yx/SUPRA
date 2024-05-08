@@ -22,7 +22,6 @@ for filename in os.listdir(directory):
                 # Split the line into its components
                 data = line.strip().split()
                 
-                # Check if the line has exactly 7 elements
                 if len(data) == 7:
                     # Extract the relevant information
                     class_id = data[0]

@@ -19,7 +19,7 @@ os.makedirs('./val/images', exist_ok=True)
 os.makedirs('./train/labels', exist_ok=True)
 os.makedirs('./val/labels', exist_ok=True)
 
-
+# change according to the resolution of original video and labeling output (may need to check if the labelling output is already normalized)
 original_width = 1920
 original_height = 1080
 label_width = 100
